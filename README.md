@@ -107,7 +107,7 @@ Este guia detalha os passos necessários para configurar um projeto em TypeScrip
    - Instale o `commitlint` para validar as mensagens de commit seguindo o padrão dos conventional commits:
 
      ```bash
-     yarn add -D '@commitlint/{cli,config-conventional}'
+     yarn add -D @commitlint/{cli,config-conventional}
      ```
 
    - Crie um arquivo `.commitlintrc` para configurar o `commitlint`.
