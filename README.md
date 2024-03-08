@@ -111,6 +111,12 @@ Este guia detalha os passos necessários para configurar um projeto em TypeScrip
      ```
 
    - Crie um arquivo `.commitlintrc` para configurar o `commitlint`.
+    ```bash
+    {
+      "extends": ["@commitlint/config-conventional"]
+    }
+    ```
+     
    - Adicione um gatilho no husky para chamar o commitlint para validar os commits
      
        ```bash
