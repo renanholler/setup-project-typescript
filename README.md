@@ -120,7 +120,7 @@ Este guia detalha os passos necessários para configurar um projeto em TypeScrip
    - Adicione um gatilho no husky para chamar o commitlint para validar os commits
      
       ```bash
-      yarn husky add .husky/commit-msg ‘yarn commitlint —edit ${1}’  
+      yarn husky add .husky/commit-msg 'yarn commitlint —edit ${1}'  
       ```
 
 ---
